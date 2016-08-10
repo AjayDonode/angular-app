@@ -1,0 +1,333 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import url('http://cdnjs.cloudflare.com/ajax/libs/select2/3.4.8/select2.css');
+@import url('http://cdnjs.cloudflare.com/ajax/libs/select2/3.4.8/select2-bootstrap.css');
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #777;
+}
+
+
+/* Custom page header */
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* Custom page footer */
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.navbar-header li a {
+    line-height: 50px;
+    height: 50px;
+    padding-top: 0;
+}
+
+.container {}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+    }
+}
+
+.panel-ui {
+    border-radius: 0 !important;
+}
+
+.padding-left-0 {
+    padding-left: 0px;
+}
+
+
+/* Supporting marketing content */
+
+.marketing {
+    margin: 10px 0;
+    p + h4 {
+        margin-top: 28px;
+    }
+}
+
+.username.ng-valid {
+    background-color: lightgreen;
+}
+
+.username.ng-dirty.ng-invalid-required {
+    background-color: red;
+}
+
+.username.ng-dirty.ng-invalid-minlength {
+    background-color: yellow;
+}
+
+.email.ng-valid {
+    background-color: lightgreen;
+}
+
+.email.ng-dirty.ng-invalid-required {
+    background-color: red;
+}
+
+.email.ng-dirty.ng-invalid-email {
+    background-color: yellow;
+}
+
+
+/* From Sample */
+
+body,
+#mainWrapper {
+    height: 60%;
+    background-color: rgb(245, 245, 245);
+}
+
+body,
+.form-control {
+    font-size: 12px!important;
+}
+
+.floatRight {
+    float: right;
+    margin-right: 0px;
+}
+
+.has-error {
+    color: red;
+}
+
+.formcontainer {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #EAE7E7;
+    border: 1px solid #ddd;
+}
+
+.spinner {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tablecontainer {
+    padding-left: 0px;
+}
+
+.generic-container {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #EAE7E7;
+    border: 1px solid #ddd;
+}
+
+.custom-width {
+    width: 80px !important;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+
+/*Filter Panel */
+
+.panel-filter {
+    margin: 10px;
+    background-color: #DAE8E8;
+    padding: 10px;
+}
+
+
+/*Slat CSS */
+
+.slatcontainer {
+    background-color: #DAE8E8;
+    padding: 5px;
+}
+
+.slat {
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    height: 102px;
+}
+
+.slat-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.slat-divider {
+    height: 50px;
+    margin: 0 9px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #FFF;
+}
+
+.slat-brand-img {
+    padding-right: 20px;
+    border: 0px;
+}
+
+.white {
+    background-color: #white;
+    padding: 5px;
+}
+
+.btn-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-round.btn-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-round.btn-sm {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-round.btn-xs {
+    width: 24px;
+    height: 24px;
+}
+
+.pull-right {
+    padding: 5px;
+    padding-top: 5px;
+    top: 0;
+    right: 0;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #DDD;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    border-width: 0;
+}
+
+.nav-tabs > li > a {
+    border: none;
+    color: #666;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+    border: none;
+    color: #4285F4 !important;
+    background: transparent;
+}
+
+.nav-tabs > li > a::after {
+    content: "";
+    background: #4285F4;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+
+.nav-tabs > li.active > a::after,
+.nav-tabs > li:hover > a::after {
+    transform: scale(1);
+}
+
+.tab-nav > li > a::after {
+    background: #21527d none repeat scroll 0% 0%;
+    color: #fff;
+}
+
+.tab-pane {
+    padding: 15px 0;
+}
+
+.tab-content {
+    padding: 20px
+}
+
+.card {
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+        height: 50px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
