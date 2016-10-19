@@ -5,7 +5,6 @@ var Schema = mongoose.Schema;
 
 var dbURI = 'mongodb://'+config.mongo.uri+'/'+config.mongo.db;
 
-//var dbURI = 'mongodb://rruser:rruserPassword@dgphxgtddb002.phx.gapinc.dev/rapidreport';
 mongoose.connect(dbURI,function(err) {
     if (err){console.log("Error "+err); throw err;} else
     console.log("Successfully connected to MongoDB");
